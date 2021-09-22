@@ -1,0 +1,315 @@
+/*0C66FF*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,100;1,300&display=swap');
+</style>
+*{
+	margin:0;
+	padding:0
+	box-sizeing:border box;
+	-webkit-box-sizeing:border box;
+	-moz-box-sizeing:border box;
+}
+body{
+	color: #0C66FF;
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+	
+}
+ul{list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+h1, h2{color: #161617;}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+h1{}
+h1 span{}
+h1 strong{}
+p{}
+/*------header section start----*/
+
+header{}
+.logo{
+    flex: 1 0 20%;
+    max-width: 20%;
+}
+.logo a{}
+.logo a img{
+    width: 150px;
+}
+nav{
+    flex: 1 0 80%;
+    max-width: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: blue;
+    font-size: 20px;
+    padding: 10px 20px;
+    /* background: red; */
+    display: block;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+/*------header section end----*/
+
+/*
++++++++++++++++++++++
+Banner Section
+++++++++++++++++++++
+*/
+.banner-section{}
+.banner{}
+.banner img{}
+
+/*
++++++++++++++++++++++
+feature Section
++++++++++++++
+*/
+.feature section{}
+.feature{}
+.col-1-2{}
+.text-right{
+	text-align:right;
+	}
+/*
++++++++++++++++++++++
+service Section
++++++++++++++-------
+*/
+.service-section{}
+.col-1-3{}
+.service{}
+.service img{}
+.service h2{}
+.service p{}
+
+/*
++++++++++++++++++++++
+footer Section
++++++++++++++-------
+*/
+
+img{
+	max-width: 500px;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+ul{list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+h1, h2{color: #414346;}
+
+.container{}
+.flex{}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: #002bff;
+    display: block;
+}
+h1 strong{
+    color: red;
+    text-align: right;
+}
+p {
+    font-size: 30px;
+    font-weight: 300;
+    color: #414346;
+    margin: 0;
+}
+/*------header section start----*/
+
+header{
+    padding: 1px 0;
+    border-bottom: 2px solid #0C66FF;
+}
+.logo{}
+.logo a{}
+.logo a img{}
+nav{}
+nav ul{}
+nav ul li{}
+nav ul li a{}
+
+/*------header section end----*/
+
+/*
++++++++++++++++++++++
+Banner Section
+++++++++++++++++++++
+*/
+.banner-section{
+    padding: 50px 0;
+}
+.banner{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.banner img{}
+
+/*
++++++++++++++++++++++
+feature Section
++++++++++++++
+*/
+.feature section{}
+.feature{
+    max-width: 950px;
+    margin: auto;
+    /* flex-wrap: wrap; */
+}
+.col-1-2{
+    flex: 1 0 50%;
+    padding: 15px;
+    max-width: 50%;
+}
+.text-right{}
+	text-align:right;
+/*
++++++++++++++++++++++
+service Section
++++++++++++++-------
+*/
+.service-section{
+	padding: 50px 0;
+}
+.col-1-3{
+    flex: 1 0 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.service{
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0003ff;
+}
+.color1{
+	background-color: #00bcd447;
+}
+.color2{
+	background-color: #f080805c;
+}
+.color3{
+	background-color: #e6cb0a63;
+}
+	
+
+.service img{
+    max-height: 180px;
+    margin: auto;
+    margin-bottom: 20px;
+
+    /* border-radius: 10px; */
+}
+.service h2{}
+.service p{}
+
+/*
++++++++++++++++++++++
+footer Section
++++++++++++++-------
+*/
+
+footer{
+	background-color: #0C66FF;
+	padding:15px 0; 
+	text-align:center;
+}
+footer p, footer a{
+	color:white;
+	opacity: 1;
+}
+
+@media(max-width:1399px){
+	.container{
+		width: 1000px;
+	}
+}
+@media(max-width:1199px){
+	.container{
+		width: 800px;
+	}
+	.banner{
+		max-width: 740px;
+	}
+	.service h2{
+		font-size: 20px;
+	}
+}
+@media(max-width:991px){
+	.container{
+		width: 700px;}
+	nav ul li a {
+		font-size: 17px;
+		padding: 10px 20px;
+		letter-spacing: 0;
+		font-weight: 500;}
+
+	.banner{
+		padding: 0 25px;
+}
+@media(max-width:767px){
+	.container{
+		width: 100%;
+		padding: 0 30px;
+	}
+	.logo, nav {
+    flex: 1 0 100%;
+    max-width: 100%;
+    }
+	.logo img{
+		margin: auto;
+		}	
+	nav ul li a {
+		font-size: 17px;
+		padding: 10px 20px;
+		letter-spacing: 0;
+		font-weight: 500;
+	}
+	.banner{
+		padding: 0 25px;
+	}
+	.banner img{
+		max-width: 450;
+	}
+}
+@media(max-width:575px){
+	.container{
+		width: 100%;
+		padding: 0 30px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.banner{
+		padding: 0 25px;
+	}
+	.banner img{
+		max-width: 300;
+	}
+}
